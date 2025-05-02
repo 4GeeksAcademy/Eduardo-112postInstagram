@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    margin: 50px 50px;
+}
+
+.encabezado {
+    background-color: white;
+    display: flex;
+    width: 450px;
+    box-sizing: border-box; 
+    
+}
+
+.iconoHtml {
+    text-align: left;
+    font-size: 25px;
+    align-items: center;
+}
+
+.contenedor_encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.titulo {
+font-weight: bold;
+font-size: 14px;
+
+}
+
+.nombre {
+    font-size: 14px;
+}
+
+.titulo, .nombre{
+    margin: 0;
+}
+
+.iconoPuntos {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 30px;  
+}
+
+.publicacion{
+    width: 450px;
+    background-color: white;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+.contendor_paisaje{
+    width: 100%;
+    overflow: hidden;
+}
+
+.paisaje {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
